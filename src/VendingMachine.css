@@ -1,0 +1,32 @@
+.VendingMachine {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: -1;
+}
+
+.VendingMachine .Greeting {
+  width: 30%;
+}
+
+h1 {
+  color: white;
+  z-index: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
